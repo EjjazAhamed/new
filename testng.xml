@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="portal" value="http://vehdb750s9006.dhcp.wdf.sap.corp:50100/irj/portal "/>
+  <parameter name="username" value="administrator"/>
+  <parameter name="passwd" value="Abcd1234"/>
+  <parameter name="system" value="http://vehdb750s9006.dhcp.wdf.sap.corp:50100/irj/portal/flp5 "/>
+  <parameter name="enduser" value="flpuser5"/>
+  <parameter name="enduser_passwd" value="abcd1234"/>
+    <classes>
+    
+      <class name="flponep.Bootstrap"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
